@@ -1,0 +1,103 @@
+.hobbies{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	height: 350px;
+	width: 100%;
+	left: 0;
+}
+
+#videogames{
+	background-image: url(../../images/videogames.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#videogames:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#running{
+	background-image: url(../../images/running.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#running:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#trip{
+	background-image: url(../../images/trip.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#trip:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#technology{
+	background-image: url(../../images/technology.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#technology:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#cinema{
+	background-image: url(../../images/cinema.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	width: 49%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+#cinema:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.hobbies p{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	padding-top: 125px;
+	text-align: center;
+}
